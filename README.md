@@ -14,9 +14,10 @@ https://github.com/czj2369/jd_tb_auto
 
 3. 在**京东APP**和**京东金融APP**（京东金融不能完成所有任务）中运行[jd20211111.js](jd20211111.js)脚本，在**京东微信小程序**中运行[jd20211111微信小程序.js](jd20211111微信小程序.js)。
 
-​		**<font size=7>务必手动打开任务页面（如下图所示），再运行脚本！！！</font>**
+
 
 <p align="center">
+​		**<font size=7>务必手动打开任务页面（如下图所示），再运行脚本！！！</font>**
 <img src="img/0.jpg" width="375" align="center" />
 </p>
 
