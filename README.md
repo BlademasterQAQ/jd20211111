@@ -17,7 +17,7 @@ https://github.com/czj2369/jd_tb_auto
 
 
 <p align="center">
-​		**<font size=7>务必手动打开任务页面（如下图所示），再运行脚本！！！</font>**
+​		**务必手动打开任务页面（如下图所示），再运行脚本！！！**
 </p>
 
 <p align="center">
