@@ -8,7 +8,7 @@ https://github.com/czj2369/jd_tb_auto
 
 ## 本项目使用方法
 
-1. 在https://github.com/kkevsekk1/AutoX/releases 中的下载地址下载[autox.js](https://github.com/kkevsekk1/AutoX)。
+1. 在https://github.com/kkevsekk1/AutoX/releases 中的下载地址下载[autox.js](https://github.com/kkevsekk1/AutoX)（[点击直接下载](https://github.com/BlademasterQAQ/jd20211111/releases/download/untagged-95cf68052845c5feec91/20210908180908.apk)）。
 
 2. 将[jd20211111.js](jd20211111.js)和[jd20211111微信小程序.js](jd20211111微信小程序.js)添加到autox.js软件中。
 
