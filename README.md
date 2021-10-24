@@ -2,13 +2,13 @@
 
 **其他优秀的项目：**
 
-https://github.com/MonsterNone/tmall-miao（淘宝建议）
+https://github.com/MonsterNone/tmall-miao （淘宝建议）
 
 https://github.com/czj2369/jd_tb_auto
 
 ## 本项目使用方法
 
-1. 在https://github.com/kkevsekk1/AutoX/releases中的下载地址下载[autox.js](https://github.com/kkevsekk1/AutoX)。
+1. 在https://github.com/kkevsekk1/AutoX/releases 中的下载地址下载[autox.js](https://github.com/kkevsekk1/AutoX)。
 
 2. 将[jd20211111.js](jd20211111.js)和[jd20211111微信小程序.js](jd20211111微信小程序.js)添加到autox.js软件中。
 
