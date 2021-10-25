@@ -67,10 +67,6 @@ while(i < small_detail.size())
     console.info("回到任务页面");
     // 重新查找任务
     small_detail = textMatches(".*(8s|8秒).*").find();
-    // 防止未消失的已完成任务（无效，黑色的也能点）
-    if(!small_detail.get(i).parent().child(3).clickable()) {
-        i = i + 1;
-    }
 }
 
 // 领宝箱
