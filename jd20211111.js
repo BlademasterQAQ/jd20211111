@@ -1,3 +1,13 @@
+/**
+ * 京东双十一
+ * 
+ * 使用方法：手动打开京东、京东金融APP的任务页面，然后运行脚本
+ * 
+ * Author: blademaster
+ * Date: 2021/10/24 21:32
+ * Versions: 1.0
+ * Github: https://github.com/BlademasterQAQ/jd20211111
+ */
 console.show();
 console.info("开始运行脚本");
 auto.waitFor();
@@ -11,6 +21,7 @@ while(!isMainMenu())
 }
     
 // 进入任务页面
+
 var i = 0;
 var small_detail = textMatches(".*(8s|8秒).*").find(); // 找到任务的小字
 while(i < small_detail.size())
@@ -62,9 +73,16 @@ while(i < small_detail.size())
     }
 }
 
+// 领宝箱
+var reward = textContains("累计任务奖励").findOne();
+for(var i = 1;i <= 3;i++)
+{
+    reward.parent().child(2).child(i).child(0).click();
+    sleep1s(1);
+}
+
 // 结束脚本
 console.hide();
-
 
 function sleep1s(seconds){
     for(var i = 0;i < seconds;i++){
@@ -77,3 +95,13 @@ function isMainMenu() // 返回主页面
     var mainmenu_flag = textMatches(".*(8s|8秒).*").find();
     return mainmenu_flag.size() > 0;
 }
+/**
+ * 京东双十一
+ * 
+ * 使用方法：手动打开京东、京东金融APP的任务页面，然后运行脚本
+ * 
+ * Author: blademaster
+ * Date: 2021/10/24 21:32
+ * Versions: 1.0
+ * Github: https://github.com/BlademasterQAQ/jd20211111
+ */
